@@ -1,38 +1,47 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body, html {
+  height: 100%;
+  margin: 0;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  background-color: yellow;
+  /* background: url(https://img.freepik.com/free-vector/pop-art-comic-background-with-halftone-color-funny-cloud_91128-1395.jpg) center;  */
+  font-family: Arial, sans-serif;
 }
 
-.App-link {
-  color: #61dafb;
+.main {
+  padding: 20px;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 15px;
+  position: relative;
+  overflow: hidden;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 15px;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+p {
+  margin: 0;
+  font-size: 18px;
+}
+
+
+.gradient {
+  padding: 10px;
+  border-radius: 10px;
+  background: linear-gradient(45deg, #2FEBA1, #2FB8EB,#2FEBE1,#2FEB62,#2F7DEB,#7DEBE5);
 }
